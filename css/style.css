@@ -1,0 +1,38 @@
+ .color1 {
+background-image: url(../assets/imagepanoram.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+padding-top: 200px;
+padding-bottom: 200px;
+ }
+
+.color4 {
+    background-color: bisque;
+}
+
+.color2 {
+    background-color: bisque;
+    display: block;
+}
+
+
+
+
+.nav{
+    background-color: transparent;
+    
+     }
+.nav a:hover {
+    background-color: bisque;
+    color: black;
+   
+}
+
+.nav-item>a {
+    color: black;
+}
+
+ul.nav-pills li.active {
+    background-color: red;
+}
