@@ -1,19 +1,57 @@
- .color1 {
+.logo{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+.logo>img {
+    height: 80px;
+    width: 20%;
+    background-color: black;
+    background-position: center;
+}
+/*Botones navegacion*/
+
+.nav{
+    background-color: rgb(182,75,55);
+    font-size: 12px;
+}
+
+.nav a:hover {
+    background-color: bisque;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.nav-item>a {
+    color: white;
+}
+
+.nav-pills .nav-link.active {
+    background-color: rgb(165, 120, 42);
+}
+
+/*imagen inicio*/
+.imagen {
 background-image: url(../assets/imagepanoram.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 padding-top: 200px;
 padding-bottom: 200px;
- }
+}
 
 .color2, .color4 {
     padding-top: 20px;
+    padding-bottom: 10px;
     background-color: bisque;
     text-align: center;
     font-size: 12px;
+}
 
-
+.color4 {
+    padding-bottom: none;
 }
 .color3 {
     margin-top: 20px;
@@ -23,65 +61,52 @@ padding-bottom: 200px;
 
 
 
-
-.nav{
-    background-color: rgb(182,75,55);
-    font-size: 12px;
-    
-}
-.nav a:hover {
-    background-color: bisque;
-    color: black;
-    
-}
-
-.nav-item>a {
-    color: white;
-
-}
-
-.nav-pills .nav-link.active {
-    background-color: rgb(165, 120, 42);
-}
-
-
-.color5 {
-    background-color: rgb(165, 120, 42);
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-top: 20px;
-    text-align: center;
-    color: bisque;
-    
-}
-
+/* Boton Reserva */
 
 a.btn.btn-primary {
     background-color: rgb(182,75,55);
     color: white;
     border: 1px solid  rgb(182,75,55);
+    margin-top: 20px;
+}
 
+div.d-grid.gap-2.col-6.mx-auto a:hover {
+    background-color: rgb(165, 120, 42);
+    font-weight: bold;
+    border: 3px solid rgb(165, 120, 42);
+    
 }
 
 
-img {
-   width: 15%;
-   
+/*LA CARTA EMPIEZA DESDE AQUI*/
+
+h3, h5 {
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: content-box;
+    width: 100%px;
+    height: 40px;
 }
 
-.logo{
-    background-color: black;
+.card>img {
+    height: 150px;
+}
+
+/* footer */
+.color5 {
+    background-color: rgb(165, 120, 42);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
+}
 
+div.color5>img {
+    width: 10%;
+    padding-top: 100px;
+    box-sizing: content-box;
 }
-.logo>img {
-    height: 80px;
-    width: 20%;
-    background-color: black;
-    background-position: center;
-}
-   
 
 
 
