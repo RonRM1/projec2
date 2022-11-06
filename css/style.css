@@ -14,14 +14,14 @@
 
 .nav{
     background-color: rgb(182,75,55);
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .nav a:hover {
     background-color: bisque;
     color: black;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .nav-item>a {
@@ -33,18 +33,20 @@
 }
 
 /*imagen inicio*/
+
 .imagen {
 background-image: url(../assets/imagepanoram.jpg);
 background-size: cover;
-background-repeat: no-repeat;
 background-position: center;
-padding-top: 200px;
-padding-bottom: 200px;
+background-repeat: no-repeat;
+padding-top: 150px;
+padding-bottom: 150px;
 }
 
 .color2, .color4 {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 10px;
+    
     background-color: bisque;
     text-align: center;
     font-size: 12px;
@@ -54,7 +56,7 @@ padding-bottom: 200px;
     padding-bottom: none;
 }
 .color3 {
-    margin-top: 20px;
+    padding-top: 10px;
     text-align: center;
     font-size: 12px;
 }
@@ -92,6 +94,31 @@ h3, h5 {
     height: 150px;
 }
 
+
+.bg-primary {
+    background-color: rgb(165, 120, 42) !important;
+}
+
+.card {
+    border: 1px solid rgb(165, 120, 42);
+}
+
+.list-group-item {
+    border: 1px solid rgb(165, 120, 42);
+}
+
+.menu {
+    border: 5px solid rgb(165, 120, 42);
+    text-align: center;
+    list-style-position: inside;
+}
+.menu>p {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+
+
 /* footer */
 .color5 {
     background-color: rgb(165, 120, 42);
@@ -103,10 +130,14 @@ h3, h5 {
 }
 
 div.color5>img {
-    width: 10%;
+    width: 20%;
     padding-top: 100px;
     box-sizing: content-box;
 }
+
+
+
+
 
 
 
