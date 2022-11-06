@@ -1,48 +1,77 @@
-# Carta Restaurante
+# Project 2 Creacion de una carta o menú de un restaurante digital.
 
-## Table of Contents
+Geekshubs Academy: FULL STACK DEVELOPER proyectyo realizado por [Ronny Rojas M.](mailto:ronny3030@gmail.com)
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Usage](#usage)
-- [Contributing](../CONTRIBUTING.md)
 
-## About <a name = "about"></a>
+### De que trata:
 
-Write about 1-2 paragraphs describing the purpose of your project.
+Creacion de una carta o menú de un restaurante digital, en este
+caso para poner en práctica los conocimientos adquiridos en materia de HTML5, CSS3, CSS Layout (Flexbox & Grid).
 
-## Getting Started <a name = "getting_started"></a>
+Se trata principalmente de mostrar lacapacidad de adaptación responsive de la aplicación.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+ Se utilizo Bootstrap:
 
-### Prerequisites
+#### Enlace BOOTSTRAP <a name = "Enlace">https://getbootstrap.com/docs/5.0/getting-started/introduction/</a>
 
-What things you need to install the software and how to install them.
+Consta de tres paginas Hipervinculadas:
 
-```
+1. Pagina de inicio. INICIO.
+2. Carta o menu. CARTA.
+3. Contacto. CONTACTO.
+
+
+#### Componentes utilizados en bootstrap:
+
+- Button group
+- Card
+ - Navs & tabs
+
+#####Ejemplo de card group:
+
+```<div class="card-group">
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
 Give examples
 ```
 
-### Installing
+#### Ejemplo de Botton group:
 
-A step by step series of examples that tell you how to get a development env running.
 
-Say what the step will be
 
 ```
+<div class="d-grid gap-2 col-6 mx-auto">
+  <button class="btn btn-primary" type="button">Button</button>
+  <button class="btn btn-primary" type="button">Button</button>
+</div>
 Give the example
 ```
 
-And repeat
+Direccion en Web
+https://ronrm1.github.io/project2/
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## Usage <a name = "usage"></a>
-
-Add notes about how to use the system.
 
 
