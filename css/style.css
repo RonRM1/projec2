@@ -5,8 +5,8 @@
     
 }
 .logo>img {
-    height: 80px;
-    width: 20%;
+    height: 50%;
+    width: 15%;
     background-color: black;
     background-position: center;
 }
@@ -35,12 +35,12 @@
 /*imagen inicio*/
 
 .imagen {
-background-image: url(../assets/imagepanoram.jpg);
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-padding-top: 150px;
-padding-bottom: 150px;
+    background-image: url(../assets/dentro.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 420px;
+    
 }
 
 .color2, .color4 {
@@ -61,6 +61,11 @@ padding-bottom: 150px;
     font-size: 12px;
 }
 
+.color20>img {
+height: 350px;
+width: 100%;
+
+}
 
 
 /* Boton Reserva */
@@ -70,9 +75,10 @@ a.btn.btn-primary {
     color: white;
     border: 1px solid  rgb(182,75,55);
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-div.d-grid.gap-2.col-6.mx-auto a:hover {
+div.d-grid.gap-2.col-6.mx-auto a:hover, div.d-grid.gap-2.col-8.mx-auto a:hover {
     background-color: rgb(165, 120, 42);
     font-weight: bold;
     border: 3px solid rgb(165, 120, 42);
@@ -109,8 +115,9 @@ h3, h5 {
 
 .menu {
     border: 5px solid rgb(165, 120, 42);
-    text-align: center;
     list-style-position: inside;
+    text-align: center;
+
 }
 .menu>p {
     padding-top: 50px;
@@ -119,21 +126,71 @@ h3, h5 {
 
 
 
-/* footer */
-.color5 {
+/* imagenes contacto*/
+.imgcont>img {
+    width: 100%;
+    height: 250px;
+}
+
+.imgconta>img {
+    width: 100%;
+    height: 270px;
+}
+
+/*footer*/
+.colinferior {
     background-color: rgb(165, 120, 42);
-    padding-top: 30px;
-    padding-bottom: 30px;
     margin-top: 20px;
-    display: flex;
-    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.color5 {
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 div.color5>img {
     width: 20%;
-    padding-top: 100px;
-    box-sizing: content-box;
 }
+
+
+
+
+
+/* desde aqui footer */
+
+
+
+/* .container-fluid2 {
+    background-color: rgb(125, 115, 104);
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 410px;
+    justify-content: space-around;
+    
+    
+
+} */
+
+/* .pulpo>img {
+
+height: 100px;
+width: 120px;
+
+} */
+
+/* .logos>img {
+    height: 40px;
+    
+    
+} */
+
+
+
+
 
 
 
