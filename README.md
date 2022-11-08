@@ -71,7 +71,7 @@ Give the example
 ```
 
 Direccion en Web
-https://ronrm1.github.io/project2/
+https://ronrm1.github.io/projec2/
 
 
 
