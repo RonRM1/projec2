@@ -27,7 +27,7 @@ Consta de tres paginas Hipervinculadas:
 - Card
  - Navs & tabs
 
-#####Ejemplo de card group:
+####Ejemplo de card group:
 
 ```<div class="card-group">
   <div class="card">
